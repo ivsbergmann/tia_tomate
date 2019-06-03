@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  background-color: #FFFFFF;
+}
+
+body {
+  margin: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.header {
+  padding: 1% 0 1% 6%;
+}
+
+.header__logo {
+  width: 20%;
+}
+
+.header__logo__img {
+  width: 100%;
+}
+
+.main {
+  left: 50%;
+  background-color: #E56353;
+  color: #FFFFFF;
+  max-width: 100%;
+  text-align: center;
+  padding: 8rem;
+  font-size: 50px;
+}
+.main h1 span {
+  display: block;
+}
+
+.main__title {
+  font-weight: 200;
+}
+
+.main__span {
+  font-weight: 700;
+}
+
+.about__roberto p, .about__javiera p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #686963;
+  text-align: start;
+  width: 70%;
+  margin: auto;
+}
+
+.about__javiera__img,
+.about__roberto__img {
+  width: 45%;
+}
+
+.about__javiera__title,
+.about__roberto__title {
+  font-weight: 700;
+  font-size: 50px;
+  color: #686963;
+}
+
+.about {
+  text-align: center;
+}
+
+.about__nosotros {
+  background-color: #E56353;
+  font-weight: 700;
+  font-size: 70px;
+  color: #FFFFFF;
+  padding: 1%;
+}
+
+.about__javiera {
+  margin-top: 8%;
+}
+
+.about__roberto {
+  margin-top: 4%;
+  margin-bottom: 6%;
+}
+
+.description__place p, .description__organic p {
+  font-weight: 400;
+  width: 50%;
+  margin: auto;
+  text-align: start;
+}
+
+.description__organic__img,
+.description__place__img {
+  width: 70%;
+}
+
+.description__place__title, .description__organic__title {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.description {
+  text-align: center;
+}
+
+.description__organic {
+  background-color: #91988D;
+  color: #FFFFFF;
+  padding: 5% 0 5% 0;
+}
+
+.description__organic__title {
+  color: #FFFFFF;
+}
+
+.description__place {
+  padding: 5% 0 5% 0;
+}
+
+.contacto {
+  background-color: #E56353;
+  text-align: center;
+  padding: 2% 0 2% 0;
+}
+
+.contacto__title {
+  font-size: 50px;
+  color: #FFFFFF;
+}
+
+.footer {
+  background-color: #686963;
+  text-align: center;
+  padding: 4% 0 4% 0;
+}
+
+.footer__img {
+  width: 15%;
+}
+
+.btn-large {
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  color: #686963;
+  font-weight: 700;
+}
+
+.btn-large {
+  width: 380px;
+  padding: 15px 40px 15px 40px;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=main.css.map */

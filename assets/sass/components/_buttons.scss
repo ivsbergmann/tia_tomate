@@ -1,0 +1,14 @@
+%button {
+  border-radius: $button-border-radius;
+  background-color: $white;
+  color: $granite-gray;
+  font-weight: $bold;
+ 
+}
+.btn-large {
+  @extend %button;
+  width: $large-button;
+  padding: 15px 40px 15px 40px;
+  font-size: 30px;
+}
+

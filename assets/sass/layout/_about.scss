@@ -1,0 +1,47 @@
+%common-about {
+  p {
+    font-size: $medium;
+    font-weight: $regular;
+    color: $granite-gray;
+    text-align: start;
+    width: 70%;
+    margin: auto;
+    
+  }
+}
+%common-about_img {
+  width: 45%;
+}
+%common-about_title {
+  font-weight: $bold;
+  font-size: $large;
+  color: $granite-gray;
+}
+.about {
+  text-align: center;
+}
+.about__nosotros {
+  background-color: $jelly-bean;
+  font-weight: $bold;
+  font-size: $x-large;
+  color: $white;
+  padding: 1%;
+}
+.about__javiera {
+  @extend %common-about;
+  margin-top: 8%;
+}
+.about__javiera__img,
+.about__roberto__img {
+    @extend %common-about_img;
+}
+.about__javiera__title,
+.about__roberto__title {
+    @extend %common-about_title;
+    
+}
+.about__roberto {
+    @extend %common-about;
+    margin-top: 4%;
+    margin-bottom: 6%;
+}

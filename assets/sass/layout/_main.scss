@@ -1,0 +1,19 @@
+.main {
+  left: 50%;
+  background-color: $jelly-bean;
+  color: $white;
+  max-width: 100%;
+  text-align: center;
+  padding: 8rem;
+  font-size: $large;
+  h1 span {
+      display: block;
+  }
+}
+.main__title {
+  font-weight: $extra-light;
+  
+}
+.main__span {
+  font-weight: $bold;
+}
