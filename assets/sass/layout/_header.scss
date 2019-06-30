@@ -1,9 +1,15 @@
-.header {
-    padding: 1% 0 1% 6%;
-}
-.header__logo {
-    width: 20%;
-}
-.header__logo__img{
-    width: 100%;
+.header{
+    padding: 1em;
+    &__container{
+        width: 100%;
+        margin: 0 auto;
+        //max-width: 800px;
+    }
+
+    &__link{
+        background: url('../images/logo_header.png') no-repeat center / 100% auto transparent;
+        height: 52px;
+        width: 252px;
+        display: block;
+    }
 }

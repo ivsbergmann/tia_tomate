@@ -1,8 +1,10 @@
 .footer {
-    background-color: $granite-gray;
-    text-align: center;
-    padding: 4% 0 4% 0;
-}
-.footer__img {
-    width: 15%;
+	background: $granite_gray;
+	padding: 5em;
+	text-align: center;
+
+	&__link {}
+	&__img {
+		width: 150px;
+	}
 }

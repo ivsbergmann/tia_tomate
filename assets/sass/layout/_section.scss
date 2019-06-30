@@ -1,0 +1,79 @@
+.tomato {
+  background-color: $jelly-bean;
+  color: $white;
+  text-align: center;
+  padding: 2em;
+  font-weight: 700;
+  font-size: $large;
+  &__text {
+    text-transform: uppercase;
+  }
+  span {
+    font-weight: $extra-light;
+  }
+  h1 {
+    text-transform: uppercase;
+  }
+}
+
+.description {
+  padding: 2em;
+  color: $granite-gray;
+  &__container {
+    @extend .header__container;
+    padding: 2rem;
+  }
+  &--grey {
+    background-color: $taupe-gray;
+    color: $white;
+  }
+  &__img {
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  &__title {
+    text-align: center;
+    margin: 1em;
+    font-size: $large;
+  }
+
+  &__text {
+    font-size: 1.2em;
+    font-weight: $extra-light;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  &--grey {
+    @extend .description;
+    background: $quick-silver;
+    color: $white;
+    font-weight: $extra-light;
+  }
+}
+
+.about {
+  padding: 3rem 7rem 3rem 7rem;
+  color: $granite-gray;
+  &__img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  &__title {
+    font-size: $large;
+    text-align: center;
+  }
+  p {
+    margin: 10px;
+    text-align: justify;
+    font-weight: $extra-light;
+    font-size: $medium;
+    color: $granite_gray;
+  }
+}

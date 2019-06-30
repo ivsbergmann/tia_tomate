@@ -1,14 +1,11 @@
-%button {
-  border-radius: $button-border-radius;
+.btn-tomato{
   background-color: $white;
-  color: $granite-gray;
-  font-weight: $bold;
- 
+  border: none;
+  border-radius: 75px;
+  color: $granite_gray;
+  font-size: .5em;
+  min-width: 300px;
+  padding: .35em;
+  text-transform: uppercase;
+  
 }
-.btn-large {
-  @extend %button;
-  width: $large-button;
-  padding: 15px 40px 15px 40px;
-  font-size: 30px;
-}
-
